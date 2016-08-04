@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="ja">
+    <head> 
+        <meta charset="UTF-8">
+        <title>HTML5</title>
+        <script type="text/javascript" src="script.js"
+            charset="UTF-8"></script>
+    </head>
+    <body onload="init();">
+        <h1>Web Strage Sample</h1>
+        <table>
+        <tr><td>NAME:</td><td><input type="text" id="name"></td></tr>
+        <tr><td>MEMO:</td><td><input type="text" id="memo"></td></tr>
+        <tr><td></td><td><input type="button" value="保存"
+                onclick="saveData();"></td></tr>
+        </table>
+        <hr>
+        <table id="datatable" border="1"></table>
+        <p id="msg"></p>
+    </body>
+</html>
+
+<!--
+1:ノーマルモードから入力モードに来ました(i)→ESC
+2:コマンドモード　:
+3:ビジュアルモード(v)→ESC
+-->
